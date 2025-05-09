@@ -50,4 +50,12 @@ public class NhtsaService {
                 .bodyToMono(String.class)
                 .block(); // Blocking for simplicity; avoid in reactive applications
     }
+
+    public String fetchMakesForVehicle() {
+        return webClient.get()
+                .uri(NhtsaApiConstants.GET_MAKES_FOR_VEHICLE_URL)
+                .retrieve()
+                .bodyToMono(String.class)
+                .block(); // Blocking for simplicity; avoid in reactive applications
+    }
 }

@@ -2,5 +2,6 @@ com/vm/ec/nhtsa/constants/NhtsaApiConstants.class
 com/vm/ec/nhtsa/service/NhtsaService.class
 com/vm/ec/nhtsa/NhtsaController/GetWMIsForManufacturer.class
 com/vm/ec/nhtsa/NhtsaController/GetAllMakes.class
+com/vm/ec/nhtsa/NhtsaController/GetMakesForVehicle.class
 com/vm/ec/nhtsa/NhtsaController/getAllManufacturers.class
 com/vm/ec/nhtsa/NhtsaApplication.class

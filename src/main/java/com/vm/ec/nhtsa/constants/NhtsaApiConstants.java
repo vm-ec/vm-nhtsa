@@ -5,4 +5,5 @@ public class NhtsaApiConstants {
     public static final String GET_ALL_MAKES_URL = BASE_API_URL + "/getallmakes?format=json";
     public static final String GET_ALL_MANUFACTURERS_URL = BASE_API_URL + "/GetAllManufacturers?format=json&page=1";
     public static final String GET_WMIS_FOR_MANUFACTURER_URL = "/GetWMIsForManufacturer";
+    public static final String GET_MAKES_FOR_VEHICLE_URL = "/GetMakesForVehicleType/car?format=json";
 }
